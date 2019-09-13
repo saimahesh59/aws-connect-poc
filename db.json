@@ -1,6 +1,5 @@
 {
-  "customers": {
-    "customer": [
+    "customers": [
       {
         "id": "1",
         "firstName": "Tom",
@@ -72,5 +71,5 @@
         "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg"
       }
     ]
-  }
+  
 }
