@@ -1,75 +1,564 @@
 {
-    "customers": [
-      {
-        "id": "1",
-        "firstName": "Tom",
-        "lastName": "Cruise",
-        "portfolio":{
-          "funds":{
-            "fund": [
-            {
-              "id":"MFS001",
-              "name":"MFS global growth a",
-              "accounts":
-                {
-                  "account":[
-                      {
-                      "id": "TOMGLOB0001",
-                      "balance":"2000"
-                    },
-                    {
-                      "id": "TOMGLOB0002",
-                      "balance":"2000"
-                    },
-                    {
-                      "id": "TOMGLOB0003",
-                      "balance":"2000"
-                    }
-                  ]
-               }
+    "accountValue": "5800667.61",
+    "positions": [
+        {
+            "accountId": "0712435281551604017024",
+            "fundId": 34,
+            "securityIssueId": "02CUSIP34000",
+            "accountNumber": 2185822,
+            "positionId": "0000034|00002185822",
+            "isFiduciary": false,
+            "positionValue": "8185.54",
+            "netAssetValuePrice": "10.0000",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "0.00",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY"
+                ],
+                "address": [
+                    "5404 MCCOY ST",
+                    "SHAWNEE KS  66226-2638",
+                    "",
+                    "",
+                    ""
+                ]
             },
-             {
-              "id":"MFS002",
-              "name":"MFS global equity",
-               "accounts":
-                {
-                  "account":[
-                      {
-                      "id": "TOMEQI0001",
-                      "balance":"2000"
-                    }
-                  ]
-               }
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
             },
-             {
-              "id":"MFS003",
-              "name":"MFS global bond",
-               "accounts":
-                {
-                  "account":[
-                      {
-                      "id": "TOMBOND0001",
-                      "balance":"2000"
-                    }
-                  ]
-               }
-            }
-            ]
-          }
-        } 
-      },
-      {
-        "id": "2",
-        "firstName": "Maria",
-        "lastName": "Sharapova",
-        "photo": "https://jsonformatter.org/img/Maria-Sharapova.jpg"
-      },
-      {
-        "id": "3",
-        "firstName": "Robert",
-        "lastName": "Downey Jr.",
-        "photo": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg"
-      }
+            "socialCode": "005",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "818.5540"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0712354562302118418050",
+            "fundId": 95,
+            "securityIssueId": "00CUSIP95000T",
+            "accountNumber": 58202,
+            "positionId": "0000095|00000058202",
+            "isFiduciary": false,
+            "positionValue": "18445.40",
+            "netAssetValuePrice": "82.8400",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "104902.60",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY"
+                ],
+                "address": [
+                    "5404 MCCOY ST",
+                    "SHAWNEE KS  66226-2638",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "006",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "222.6630"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0712354562302118418050",
+            "fundId": 97,
+            "securityIssueId": "00CUSIP97000",
+            "accountNumber": 58202,
+            "positionId": "0000097|00000058202",
+            "isFiduciary": false,
+            "positionValue": "43315.13",
+            "netAssetValuePrice": "44.4400",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "0.00",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY"
+                ],
+                "address": [
+                    "5404 MCCOY ST",
+                    "SHAWNEE KS  66226-2638",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "006",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "974.6880"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 34,
+            "securityIssueId": "02CUSIP34000",
+            "accountNumber": 2185801,
+            "positionId": "0000034|00002185801",
+            "isFiduciary": false,
+            "positionValue": "30873.20",
+            "netAssetValuePrice": "10.0000",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "0.00",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY &",
+                    "TERESA M MCGARRY TEN COM"
+                ],
+                "address": [
+                    "5202 ROUND PR ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "015",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "3087.3200"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 34,
+            "securityIssueId": "02CUSIP34000",
+            "accountNumber": 98798798,
+            "positionId": "0000034|00098798798",
+            "isFiduciary": false,
+            "positionValue": "93791.38",
+            "netAssetValuePrice": "10.0000",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "0.00",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY",
+                    "TERESA M MCGARRY JTWROS"
+                ],
+                "address": [
+                   "5202 ROUND PRAIRIE ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "015",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "9379.1380"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 93,
+            "securityIssueId": "0054400410T0",
+            "accountNumber": 2185801,
+            "positionId": "0000093|00002185801",
+            "isFiduciary": false,
+            "positionValue": "3579447.30",
+            "netAssetValuePrice": "25.1100",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "36150.84",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY &",
+                    "TERESA M MCGARRY TEN COM"
+                ],
+                "address": [
+                    "5202 ROUND PR ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "015",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "141110.9700"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+           "accountId": "0000000000000000000000",
+            "fundId": 95,
+            "securityIssueId": "00CUSIP95000T",
+            "accountNumber": 2185801,
+            "positionId": "0000095|00002185801",
+            "isFiduciary": false,
+            "positionValue": "500000.04",
+            "netAssetValuePrice": "82.8400",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "57952.12",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY"
+                ],
+                "address": [
+                    "5202 ROUND PR ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "006",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "6035.7320"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 95,
+            "securityIssueId": "00CUSIP95000T",
+            "accountNumber": 2185803,
+            "positionId": "0000095|00002185803",
+            "isFiduciary": true,
+            "positionValue": "121843.81",
+            "netAssetValuePrice": "82.8400",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "1606.26",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "INVESTORS FIDUCIARY TRUST CO TR",
+                    "CUST MICHAEL JAMES MCGARRY IRA"
+                ],
+                "address": [
+                    "5202 ROUND PRAIRIE ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "701",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "1470.8330"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 95,
+            "securityIssueId": "00CUSIP95000T",
+            "accountNumber": 8202001,
+            "positionId": "0000095|00008202001",
+            "isFiduciary": false,
+            "positionValue": "513654.89",
+            "netAssetValuePrice": "82.8400",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "42467769.23",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY"
+                ],
+                "address": [
+                    "5202 ROUND PRAIRIE ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                   "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "005",
+            "shareBalances": {
+                "totalIssuedShares": "170.0000",
+                "totalUnIssuedShares": "6030.5660"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 96,
+            "securityIssueId": "005315451010",
+            "accountNumber": 2185801,
+            "positionId": "0000096|00002185801",
+            "isFiduciary": false,
+            "positionValue": "530024.82",
+            "netAssetValuePrice": "13.0500",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "7.04",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY"
+                ],
+                "address": [
+                    "5202 ROUND PRAIRIE ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "006",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "40614.9290"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 96,
+            "securityIssueId": "005315451010",
+            "accountNumber": 2185802,
+            "positionId": "0000096|00002185802",
+            "isFiduciary": false,
+            "positionValue": "243836.50",
+            "netAssetValuePrice": "13.0500",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "2.38",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY &",
+                    "TERESA M MCGARRY TEN COM"
+                ],
+                "address": [
+                    "5202 ROUND PR ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "015",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "18684.7890"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+           "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 96,
+            "securityIssueId": "005315451010",
+            "accountNumber": 2185803,
+            "positionId": "0000096|00002185803",
+            "isFiduciary": true,
+            "positionValue": "1453.40",
+            "netAssetValuePrice": "13.0500",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "0.30",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "INVESTORS FIDUCIARY TRUST CO TR",
+                    "CUST MICHAEL JAMES MCGARRY IRA"
+                ],
+                "address": [
+                    "5202 ROUND PRAIRIE ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "701",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "111.3720"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        },
+        {
+            "accountId": "0000000000000000000000",
+            "fundId": 97,
+            "securityIssueId": "00CUSIP97000",
+            "accountNumber": 2185801,
+            "positionId": "0000097|00002185801",
+            "isFiduciary": false,
+            "positionValue": "115796.20",
+            "netAssetValuePrice": "44.4400",
+            "priceDate": "2019-09-16",
+            "priceTime": "00:00",
+            "dailyDividendAccrual": "0.00",
+            "isOpenPosition": true,
+            "hasAllocationModel": false,
+            "registration": {
+                "detail": [
+                    "MICHAEL JAMES MCGARRY &",
+                    "TERESA M MCGARRY TEN COM"
+                ],
+                "address": [
+                    "5202 ROUND PR ST",
+                    "SHAWNEE KS  66226-2635",
+                    "",
+                    ""
+                ]
+            },
+            "taxIdentification": {
+                "taxId": "435998202",
+                "taxIdType": "SSN",
+                "certificationCode": 2,
+                "certificationText": "SSN_CERTIFIED"
+            },
+            "socialCode": "015",
+            "shareBalances": {
+                "totalIssuedShares": "0.0000",
+                "totalUnIssuedShares": "2605.6750"
+            },
+            "hasStopMail": false,
+            "hasStopPurchase": false,
+            "netAssetValueCode": "0",
+            "isNetAssetValue": false,
+            "firmAccountNumber": ""
+        }
     ]
-  
 }
